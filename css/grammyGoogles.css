@@ -1,0 +1,186 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #C9F0FF;
+  background-color: #6B5E62;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+img {
+  padding: 1rem 0rem;
+}
+
+footer {
+  background-color: #C9F0FF;
+}
+
+/* Changing hyperlink styling */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Contact form */
+
+form {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+.form-group {
+  margin: 2rem 1rem;
+}
+
+.form-check {
+  margin: 1rem 1rem 0rem 1rem;
+}
+
+#name, #email, #phone, #freeresponse {
+  font-size: 2rem;
+}
+
+/* Bootstrap padding and margin manipulation */
+
+.container-fluid {
+  padding-right:0;
+  padding-left:0;
+  margin-right:auto;
+  margin-left:auto
+}
+
+.row {
+  padding-right:0;
+  padding-left:0;
+  margin-right:auto;
+  margin-left:auto
+}
+
+/* Header */
+
+.jumbotron {
+  position: relative;
+  width: 100%;
+  border-radius: 0px;
+  color: #6B5E62;
+  background-color: #C9F0FF;
+}
+
+/* Breadcrumbs */
+
+.breadcrumb {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  color: #6B5E62;
+  background-color: #C9F0FF;
+}
+
+.breadcrumb-item {
+  font-weight: bold;
+}
+
+.breadcrumb-item a {
+  color: #6B5E62;
+}
+
+.breadcrumb-item + .active {
+  color: #312B2D;
+  font-weight: bold;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  font-weight: normal;
+  padding-right: 0.15rem;
+  content: "\276F\00a0";
+}
+
+/* Buttons */
+
+.bookmarkbtn {
+  display: block;
+  margin-bottom: 2rem;
+  padding: 1rem 0rem;
+  width: 100%;
+  font-size: 2rem;
+  white-space: normal;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  background-color: rgba(77, 73, 74, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.homebtn {
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-size: 2rem;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  background-color: rgba(77, 73, 74, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.bodybtn {
+  display: block;
+  margin: 1rem 0rem;
+  padding-top: 6.5rem;
+  height: 20rem;
+  width: 100%;
+  font-size: 4rem;
+  text-align: center;
+  white-space: normal;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  color: #6B5E62;
+  background-color: rgba(201, 240, 255, 1);
+}
+
+.formbtn {
+  display: block;
+  float: right;
+  margin: 0rem 1rem 1rem 0rem;
+  font-size: 2rem;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  color: #6B5E62;
+  background-color: rgba(201, 240, 255, 1);
+}
+
+.footerbtn {
+  display: block;
+  margin: 1rem 0rem;
+  padding: 2rem 0rem;
+  width: 100%;
+  font-size: 2rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  color: #EAFFFD;
+  background-color: #6B5E62;
+}
+
+/* Change text color and button shadowing on hover */
+
+.btn:hover {
+  box-shadow: 0 14px 26px -12px rgba(0, 0, 0, 0.44), 0 4px 23px 0px rgba(0, 0, 0, 0.22), 0 8px 10px -5px rgba(0, 0, 0, 0.32);
+  color: #C9F0FF;
+}
+
+.bodybtn:hover, .formbtn:hover {
+  color: #312B2D;
+}
